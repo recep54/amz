@@ -1,0 +1,16 @@
+<h1>Hello</h1>
+
+
+
+<%= form_for :anything, url: "/search", method: :get do |f| %>
+
+<div class="form-group">
+    <label>Please enter the name of a movie to get more details on it:</label><br>
+    <%= f.text_field :name %>
+    <%= f.submit value="Send"%>
+</div>
+
+<% end %>
+
+
+<a target="_blank" href="https://www.amazon.fr/gp/product/1524763136">Becoming</a>
