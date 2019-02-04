@@ -6,8 +6,7 @@ require 'open-uri'
 class SearchProduct
   def perform(filme)
     @product = filme
-    @browser = Watir::Browser.new(:phantomjs)
-    
+    @browser = Watir::Browser.new :phantomjs    
 
 
 
